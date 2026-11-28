@@ -113,15 +113,5 @@ The fact table references the dimension tables through their surrogate keys:
 | `quantity` | `INT` | The number of units of the product ordered for the line item (e.g., 1). | |
 | `price` | `INT` | The price per unit of the product for the line item, in whole currency units (e.g., 25). | |
 
-## Items to verify
 
-The following points are carried forward from the source document and should be confirmed before treating this dictionary as final.
 
-1. **`gold.dim_customers.create_date`** — The source lists the data type as `DATE`, while the description refers to a date and time. Confirm whether the intended SQL type should include a time component.
-2. **`gold.dim_products.start_date`** — The source description is incomplete. The source text ends after “stored in”.
-
----
-
-## Source fidelity
-
-Column names, data types, purposes, and descriptions are retained from the supplied Gold Layer data dictionary. The verification items identify incomplete or potentially inconsistent source wording. They do not change the schema.
