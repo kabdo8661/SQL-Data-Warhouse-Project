@@ -8,7 +8,7 @@ This document describes the tables in the Gold layer of the data warehouse, incl
 - [gold.dim_customers](#golddim_customers)
 - [gold.dim_products](#golddim_products)
 - [gold.fact_sales](#goldfact_sales)
-- [Items to verify](#items-to-verify)
+
 
 ## Model overview
 
